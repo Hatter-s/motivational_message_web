@@ -1,15 +1,17 @@
 import quotes from "./quotes.js";
-import quoteBackground from "./quote_bg.js";
+import { quoteBackgrounds, quoteBackgroundsSmall} from "./quote_bg.js";
 
-const randomQuoteAndBackground = (quotes, background) => {
-    const randomNumber = Math.floor(Math.random() * 50);
+const randomQuoteAndBackground = (quotes, backgrounds, backgroundsSmall) => {
+    const randomQuote = Math.floor(Math.random() * quotes.length);
+    const randomBackground = Math.floor(Math.random() * backgrounds.length);
     
     return {
-        quote: quotes[randomNumber].quote,
-        author: quotes[randomNumber].author,
-        background : background[randomNumber]
+        quote: quotes[randomQuote].quote,
+        author: quotes[randomQuote].author,
+        background : backgrounds[randomBackground],
+        smallBackground : backgroundsSmall[randomBackground]
     };
 }
 
 
-console.log(randomQuoteAndBackground(quotes,quoteBackground));
+console.log(randomQuoteAndBackground(quotes, quoteBackgrounds, quoteBackgroundsSmall));
