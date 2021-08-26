@@ -2,9 +2,11 @@
 
 ## Table content
 
-- [General info](#general-info)
-- [Technologies](#technologies)
-- [Setup](#setup)
+- [Motivation Message](#motivation-message)
+  - [Table content](#table-content)
+  - [Introduction](#introduction)
+  - [Technologies](#technologies)
+  - [Launch](#launch)
 
 ## Introduction
 
