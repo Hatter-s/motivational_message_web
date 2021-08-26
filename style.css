@@ -15,6 +15,10 @@ body {
 .navbar-brand {
   font-size: 72px;
 }
+#brand {
+  background-image: url("reward.png");
+  height: 72px;
+}
 .nav-link {
   font-size: 48px;
 }

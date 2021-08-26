@@ -14,3 +14,6 @@
   - If quotes and images repeat say: and it store in id= surprise
   - Make conect with HTML and CSS
   - Make public in github and conect local and global
+- work in afternoon 8/26:
+  - choose background too dark and remove it replace it by new one.
+  - figure way to make small background random.
